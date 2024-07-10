@@ -31,7 +31,7 @@ pipeline {
                     }
                 }
 
-                stage('Test in Firefox') {
+                stage('Test in Firefox') { 
                     steps {
                         echo "Tesing in Firefox Browser"
                         sh 'sleep 5'
