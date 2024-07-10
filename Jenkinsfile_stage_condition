@@ -17,7 +17,7 @@ pipeline {
                 script {
                     try {
                         echo "Running the test cases"
-                        sh 'sleep 5'
+                        sh 'sleep 15'
                         // sh 'exit 1'
                     } catch (Exception e) {
                         echo "Got an exception, need to handle it."
