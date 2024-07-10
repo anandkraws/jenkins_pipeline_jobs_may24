@@ -30,7 +30,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                echo "BUILDING the app from main branch"
+                echo "Building the app from main branch"
                 sh 'ls -lrt'
             }
         }
